@@ -1,0 +1,38 @@
+/* HomePage style V 0 */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    font-family: 'Roboto Mono', monospace ;
+    background-color: rgba(52, 5, 73, 0.537);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+#centerTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(28, 3, 39, 0.527);
+    text-align: justify;
+    
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;    
+}
+
+#clima{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(31, 18, 16, 0.274);
+}
