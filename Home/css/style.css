@@ -8,8 +8,11 @@
 
 #container {
     font-family: 'Roboto Mono', monospace;
+    background-color: crimson;
     background-image: url('../img/init.jpg');
+    background-size:cover;
     background-position: center;
+    background-repeat: no-repeat;
 
     width: 100vw;
     height: 100vh;
@@ -17,7 +20,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(227, 164, 233);
+    color: rgb(46, 23, 48);
 
 
 }
@@ -29,7 +32,7 @@
     background-color: rgba(28, 3, 39, 0.527);
     text-align: justify;
 
-    width: 400px;
+    
     height: 100px;
     border-radius: 10px;
 }
@@ -38,4 +41,5 @@
     border-radius: 10px;
     padding: 10px;
     background-color: rgba(31, 18, 16, 0.274);
+    
 }
